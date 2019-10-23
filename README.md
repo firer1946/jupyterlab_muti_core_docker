@@ -1,7 +1,8 @@
 # jupyterlab_muti_core_docker
 A multi-core jupyterlab/jupyter_notebook built by docker
 
-inspire by https://gitlab.com/nicolalandro/jupyter-and-coq,and add more i need to use cores
+inspire by https://gitlab.com/nicolalandro/jupyter-and-coq
+,and add more i need to use cores
 
 **here is the supports**:
 - scala
