@@ -1,0 +1,11 @@
+version: '3.2'
+services:
+    jupyter_coq:
+#        image: "jupyter-multi-cores-go-test-java-left-php-rust-clear:v0.1"
+        build: .
+        volumes:
+        - ./notebook:/server
+        - ./conf/php/php-dev.ini:/usr/local/etc/php/php.ini:ro
+        ports:
+        - 8888:8888
+
